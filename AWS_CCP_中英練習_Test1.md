@@ -2,12 +2,16 @@
 
 (1) specific use-cases
 Ans: Business
+
 (2) choose how much traffic is routed
 Ans: Weighted
+
 (3) AWS account activity meets governance
 Ans: CloudTrail
+
 (4) have control over creating
 Ans: Customer Managed Key (CMK)
+
 (5) mitigate a Distributed Denial of Service (DDoS) attack
 Ans: AWS Shield
 
@@ -16,7 +20,10 @@ Ans: AWS Shield
 (1)
 中文題目：哪個 AWS Support 方案適合特定使用案例的企業需求？
 答案：Business（商業方案）
-解析：AWS Support 分為四個等級：Basic、Developer、Business、Enterprise。Business 方案提供 24/7 全天候電話、Email 及 Chat 技術支援，並包含 AWS Trusted Advisor 完整檢查、Health API 存取，以及針對特定使用情境（specific use-cases）提供指導建議，適合有生產環境工作負載的企業使用。Developer 方案僅提供 Email 支援；Enterprise 方案則針對大型關鍵任務企業，費用更高。
+解析：AWS Support 分為四個等級：Basic、Developer、Business、Enterprise。
+- Business 方案提供 24/7 全天候電話、Email 及 Chat 技術支援，並包含 AWS Trusted Advisor 完整檢查、Health API 存取，以及針對特定使用情境（specific use-cases）提供指導建議，適合有生產環境工作負載的企業使用。
+- Developer 方案僅提供 Email 支援；
+- Enterprise 方案則針對大型關鍵任務企業，費用更高。
 
 (2)
 中文題目：哪種 Route 53 路由政策允許你選擇將多少流量導向特定資源？
