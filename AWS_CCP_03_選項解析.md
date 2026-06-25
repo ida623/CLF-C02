@@ -15,10 +15,10 @@ Which AWS service can be used to store, manage, and deploy Docker container imag
 哪個 AWS 服務可用於儲存、管理和部署 Docker 容器映像？
 
 **[選項]**
-A. Amazon Elastic Container Service (Amazon ECS)／容器編排服務
-B. AWS Lambda／無伺服器函數
-C. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
-D. Amazon Elastic Container Registry (Amazon ECR)／容器映像倉庫
+- A. Amazon Elastic Container Service (Amazon ECS)／容器編排服務
+- B. AWS Lambda／無伺服器函數
+- C. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
+- D. Amazon Elastic Container Registry (Amazon ECR)／容器映像倉庫
 
 **正確答案**
 Amazon Elastic Container Registry (Amazon ECR)／容器映像倉庫
@@ -44,10 +44,10 @@ An e-commerce company wants to assess its applications deployed on Amazon EC2 in
 一家電子商務公司希望評估其在 Amazon EC2 執行個體上部署的應用程式是否存在漏洞，以及是否偏離 AWS 最佳實務。哪個 AWS 服務可以用於此任務？
 
 **[選項]**
-A. AWS Secrets Manager／機密管理
-B. AWS CloudHSM／雲端硬體安全模組
-C. AWS Trusted Advisor／最佳實務建議
-D. Amazon Inspector／自動化弱點評估
+- A. AWS Secrets Manager／機密管理
+- B. AWS CloudHSM／雲端硬體安全模組
+- C. AWS Trusted Advisor／最佳實務建議
+- D. Amazon Inspector／自動化弱點評估
 
 **正確答案**
 Amazon Inspector／自動化弱點評估
@@ -73,10 +73,10 @@ A social media company wants to protect its web application from common web expl
 一家社群媒體公司希望保護其 Web 應用程式免受 SQL 注入和跨站腳本等常見 Web 攻擊。以下哪個 AWS 服務可以用於此使用案例？
 
 **[選項]**
-A. Amazon GuardDuty／威脅偵測
-B. Amazon Inspector／弱點評估
-C. AWS CloudWatch／監控服務
-D. AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
+- A. Amazon GuardDuty／威脅偵測
+- B. Amazon Inspector／弱點評估
+- C. AWS CloudWatch／監控服務
+- D. AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
 
 **正確答案**
 AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
@@ -102,11 +102,11 @@ AWS Compute Optimizer delivers recommendations for which of the following AWS re
 AWS Compute Optimizer 為以下哪些 AWS 資源提供建議？（選兩項）
 
 **[選項]**
-A. AWS Lambda functions, Amazon Simple Storage Service (Amazon S3)／Lambda 函數、S3
-B. Amazon EC2 instances, Amazon Elastic File System (Amazon EFS)／EC2 執行個體、EFS
-C. Amazon Elastic File System (Amazon EFS), AWS Lambda functions／EFS、Lambda 函數
-D. Amazon EC2 instances, Amazon EC2 Auto Scaling groups／EC2 執行個體、EC2 Auto Scaling 群組
-E. Amazon Elastic Block Store (Amazon EBS), AWS Lambda functions／EBS、Lambda 函數
+- A. AWS Lambda functions, Amazon Simple Storage Service (Amazon S3)／Lambda 函數、S3
+- B. Amazon EC2 instances, Amazon Elastic File System (Amazon EFS)／EC2 執行個體、EFS
+- C. Amazon Elastic File System (Amazon EFS), AWS Lambda functions／EFS、Lambda 函數
+- D. Amazon EC2 instances, Amazon EC2 Auto Scaling groups／EC2 執行個體、EC2 Auto Scaling 群組
+- E. Amazon Elastic Block Store (Amazon EBS), AWS Lambda functions／EBS、Lambda 函數
 
 **正確答案**
 Amazon EC2 instances, Amazon EC2 Auto Scaling groups／EC2 執行個體、EC2 Auto Scaling 群組；Amazon Elastic Block Store (Amazon EBS), AWS Lambda functions／EBS、Lambda 函數
@@ -133,11 +133,11 @@ Which of the following AWS services are global in scope? (Select two)
 以下哪些 AWS 服務的範圍是全球性的？（選兩項）
 
 **[選項]**
-A. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
-B. Amazon Relational Database Service (Amazon RDS)／關聯式資料庫
-C. Amazon Simple Storage Service (Amazon S3)／物件儲存
-D. Amazon CloudFront／內容交付網路
-E. AWS Identity and Access Management (AWS IAM)／身分與存取管理
+- A. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
+- B. Amazon Relational Database Service (Amazon RDS)／關聯式資料庫
+- C. Amazon Simple Storage Service (Amazon S3)／物件儲存
+- D. Amazon CloudFront／內容交付網路
+- E. AWS Identity and Access Management (AWS IAM)／身分與存取管理
 
 **正確答案**
 Amazon CloudFront／內容交付網路；AWS Identity and Access Management (AWS IAM)／身分與存取管理
@@ -164,11 +164,11 @@ Which of the following AWS services are always free to use? (Select two)
 以下哪些 AWS 服務永遠免費使用？（選兩項）
 
 **[選項]**
-A. Amazon DynamoDB／NoSQL 資料庫
-B. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
-C. Amazon Simple Storage Service (Amazon S3)／物件儲存
-D. AWS Auto Scaling／自動擴展
-E. AWS Identity and Access Management (AWS IAM)／身分與存取管理
+- A. Amazon DynamoDB／NoSQL 資料庫
+- B. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
+- C. Amazon Simple Storage Service (Amazon S3)／物件儲存
+- D. AWS Auto Scaling／自動擴展
+- E. AWS Identity and Access Management (AWS IAM)／身分與存取管理
 
 **正確答案**
 AWS Auto Scaling／自動擴展；AWS Identity and Access Management (AWS IAM)／身分與存取管理
@@ -195,11 +195,11 @@ An IT company wants to run a log backup process every Monday at 2 AM. The usual 
 一家 IT 公司希望每週一凌晨 2 點執行一次日誌備份流程，通常執行時間為 5 分鐘。您會推薦哪些 AWS 服務來建立無伺服器解決方案？（選兩項）
 
 **[選項]**
-A. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
-B. AWS Step Functions／工作流程編排
-C. AWS Systems Manager／系統管理
-D. AWS Lambda／無伺服器函數
-E. Amazon EventBridge／事件匯流排與排程
+- A. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
+- B. AWS Step Functions／工作流程編排
+- C. AWS Systems Manager／系統管理
+- D. AWS Lambda／無伺服器函數
+- E. Amazon EventBridge／事件匯流排與排程
 
 **正確答案**
 AWS Lambda／無伺服器函數；Amazon EventBridge／事件匯流排與排程
@@ -226,10 +226,10 @@ Which AWS service helps with global application availability and performance usi
 哪個 AWS 服務使用 AWS 全球網路幫助提升全球應用程式的可用性和效能？
 
 **[選項]**
-A. Elastic Load Balancing (ELB)／負載平衡
-B. Amazon Route 53／DNS 服務
-C. Amazon CloudFront／內容交付網路
-D. AWS Global Accelerator／全球加速器
+- A. Elastic Load Balancing (ELB)／負載平衡
+- B. Amazon Route 53／DNS 服務
+- C. Amazon CloudFront／內容交付網路
+- D. AWS Global Accelerator／全球加速器
 
 **正確答案**
 AWS Global Accelerator／全球加速器
@@ -255,10 +255,10 @@ As per the AWS Shared Responsibility Model, which of the following is a responsi
 根據 AWS 共同責任模型，以下哪項是客戶從安全和合規角度的責任？
 
 **[選項]**
-A. Availability Zone (AZ) infrastructure management／可用區域基礎設施管理
-B. Configuration management for AWS global infrastructure／AWS 全球基礎設施設定管理
-C. Patching/fixing flaws within the AWS infrastructure／修補 AWS 基礎設施缺陷
-D. Managing patches of the guest operating system on Amazon EC2／管理 Amazon EC2 客體作業系統修補程式
+- A. Availability Zone (AZ) infrastructure management／可用區域基礎設施管理
+- B. Configuration management for AWS global infrastructure／AWS 全球基礎設施設定管理
+- C. Patching/fixing flaws within the AWS infrastructure／修補 AWS 基礎設施缺陷
+- D. Managing patches of the guest operating system on Amazon EC2／管理 Amazon EC2 客體作業系統修補程式
 
 **正確答案**
 Managing patches of the guest operating system on Amazon EC2／管理 Amazon EC2 客體作業系統修補程式
@@ -284,10 +284,10 @@ Which AWS support plan provides access to a designated Technical Account Manager
 哪個 AWS 支援方案提供對指定技術帳戶管理員（TAM）的存取？
 
 **[選項]**
-A. AWS Developer Support／開發者支援
-B. AWS Business Support／商業支援
-C. AWS Enterprise On-Ramp Support／Enterprise On-Ramp 支援
-D. AWS Enterprise Support／企業支援
+- A. AWS Developer Support／開發者支援
+- B. AWS Business Support／商業支援
+- C. AWS Enterprise On-Ramp Support／Enterprise On-Ramp 支援
+- D. AWS Enterprise Support／企業支援
 
 **正確答案**
 AWS Enterprise Support／企業支援
@@ -313,10 +313,10 @@ Which AWS compute service provides the EASIEST way to access resizable compute c
 哪個 AWS 運算服務提供最簡單的方式存取雲端中可調整大小的運算容量，並支援按秒計費和存取底層作業系統？
 
 **[選項]**
-A. Amazon Lightsail／簡化型 VPS
-B. Amazon Elastic Container Service (Amazon ECS)／容器編排服務
-C. AWS Lambda／無伺服器函數
-D. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
+- A. Amazon Lightsail／簡化型 VPS
+- B. Amazon Elastic Container Service (Amazon ECS)／容器編排服務
+- C. AWS Lambda／無伺服器函數
+- D. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
 
 **正確答案**
 Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
@@ -342,10 +342,10 @@ Which service gives a personalized view of the status of the AWS services that a
 哪個服務提供您雲端架構中 AWS 服務狀態的個人化視圖，以便在 AWS 服務出現問題時快速評估對業務的影響？
 
 **[選項]**
-A. Amazon CloudWatch／監控服務
-B. Amazon Inspector／弱點評估
-C. AWS Health - Service Health Dashboard／AWS Health 服務健康儀表板
-D. AWS Health - Your Account Health Dashboard／AWS Health 您的帳戶健康儀表板
+- A. Amazon CloudWatch／監控服務
+- B. Amazon Inspector／弱點評估
+- C. AWS Health - Service Health Dashboard／AWS Health 服務健康儀表板
+- D. AWS Health - Your Account Health Dashboard／AWS Health 您的帳戶健康儀表板
 
 **正確答案**
 AWS Health - Your Account Health Dashboard／AWS Health 您的帳戶健康儀表板
@@ -371,10 +371,10 @@ A fleet of Amazon EC2 instances spread across different Availability Zones (AZ) 
 分散在不同可用區域（AZ）的 Amazon EC2 執行個體群需要存取、編輯和共享集中儲存的檔案型資料。您會推薦哪個 AWS 服務？
 
 **[選項]**
-A. EC2 Instance Store／EC2 執行個體存放區
-B. Amazon Simple Storage Service (Amazon S3)／物件儲存
-C. Amazon Elastic Block Store (Amazon EBS)／區塊儲存
-D. Amazon Elastic File System (Amazon EFS)／共享檔案系統
+- A. EC2 Instance Store／EC2 執行個體存放區
+- B. Amazon Simple Storage Service (Amazon S3)／物件儲存
+- C. Amazon Elastic Block Store (Amazon EBS)／區塊儲存
+- D. Amazon Elastic File System (Amazon EFS)／共享檔案系統
 
 **正確答案**
 Amazon Elastic File System (Amazon EFS)／共享檔案系統
@@ -400,10 +400,10 @@ Which of the following AWS services comes under the Software as a Service (SaaS)
 以下哪個 AWS 服務屬於軟體即服務（SaaS）雲端運算類型？
 
 **[選項]**
-A. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
-B. Elastic Load Balancing (ELB)／負載平衡
-C. AWS Elastic Beanstalk／應用部署平台
-D. Amazon Rekognition／影像與影片分析服務
+- A. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
+- B. Elastic Load Balancing (ELB)／負載平衡
+- C. AWS Elastic Beanstalk／應用部署平台
+- D. Amazon Rekognition／影像與影片分析服務
 
 **正確答案**
 Amazon Rekognition／影像與影片分析服務
@@ -429,10 +429,10 @@ As per the AWS Shared Responsibility Model, which of the following is a responsi
 根據 AWS 共同責任模型，以下哪項是 AWS 從安全和合規角度的責任？
 
 **[選項]**
-A. Customer Data／客戶資料
-B. Server-side Encryption (SSE)／伺服器端加密
-C. Identity and Access Management／身分和存取管理
-D. Edge Location Management／邊緣位置管理
+- A. Customer Data／客戶資料
+- B. Server-side Encryption (SSE)／伺服器端加密
+- C. Identity and Access Management／身分和存取管理
+- D. Edge Location Management／邊緣位置管理
 
 **正確答案**
 Edge Location Management／邊緣位置管理
@@ -458,10 +458,10 @@ Due to regulatory and compliance reasons, an organization is supposed to use a h
 由於法規和合規原因，一個組織應使用硬體裝置進行雲端中的任何資料加密操作。哪個 AWS 服務可以用於滿足此合規要求？
 
 **[選項]**
-A. AWS Secrets Manager／機密管理
-B. AWS Trusted Advisor／最佳實務建議
-C. AWS Key Management Service (AWS KMS)／金鑰管理服務
-D. AWS CloudHSM／雲端硬體安全模組
+- A. AWS Secrets Manager／機密管理
+- B. AWS Trusted Advisor／最佳實務建議
+- C. AWS Key Management Service (AWS KMS)／金鑰管理服務
+- D. AWS CloudHSM／雲端硬體安全模組
 
 **正確答案**
 AWS CloudHSM／雲端硬體安全模組
@@ -487,11 +487,11 @@ Which of the following solutions can you use to connect your on-premises network
 以下哪些解決方案可用於將您的本地網路連接至 AWS 雲端？（選兩項）
 
 **[選項]**
-A. Internet Gateway／網際網路閘道
-B. Amazon Route 53／DNS 服務
-C. Amazon Virtual Private Cloud (Amazon VPC)／虛擬私有雲
-D. AWS Direct Connect／專用網路連線
-E. AWS Virtual Private Network (VPN)／虛擬私有網路
+- A. Internet Gateway／網際網路閘道
+- B. Amazon Route 53／DNS 服務
+- C. Amazon Virtual Private Cloud (Amazon VPC)／虛擬私有雲
+- D. AWS Direct Connect／專用網路連線
+- E. AWS Virtual Private Network (VPN)／虛擬私有網路
 
 **正確答案**
 AWS Direct Connect／專用網路連線；AWS Virtual Private Network (VPN)／虛擬私有網路
@@ -518,10 +518,10 @@ Access Key ID and Secret Access Key are tied to which of the following AWS IAM e
 存取金鑰 ID 和私密存取金鑰與以下哪個 AWS IAM 實體相關聯？
 
 **[選項]**
-A. IAM Role／IAM 角色
-B. IAM Policy／IAM 政策
-C. IAM User Group／IAM 使用者群組
-D. IAM User／IAM 使用者
+- A. IAM Role／IAM 角色
+- B. IAM Policy／IAM 政策
+- C. IAM User Group／IAM 使用者群組
+- D. IAM User／IAM 使用者
 
 **正確答案**
 IAM User／IAM 使用者
@@ -547,11 +547,11 @@ Which of the following are examples of Horizontal Scalability (aka Elasticity)? 
 以下哪些是水平擴展（即彈性）的範例？（選兩項）
 
 **[選項]**
-A. Modify a Database instance to higher CPU and RAM／將資料庫執行個體修改為更高 CPU 和 RAM
-B. Modify an EC2 instance type from t2.nano to u-12tb1.metal／將 EC2 執行個體類型調整為更大型號
-C. Add a bigger CPU to a computer／為電腦新增更大的 CPU
-D. Elastic Load Balancing (ELB)／負載平衡
-E. Read Replicas in Amazon Relational Database Service (Amazon RDS)／Amazon RDS 讀取副本
+- A. Modify a Database instance to higher CPU and RAM／將資料庫執行個體修改為更高 CPU 和 RAM
+- B. Modify an EC2 instance type from t2.nano to u-12tb1.metal／將 EC2 執行個體類型調整為更大型號
+- C. Add a bigger CPU to a computer／為電腦新增更大的 CPU
+- D. Elastic Load Balancing (ELB)／負載平衡
+- E. Read Replicas in Amazon Relational Database Service (Amazon RDS)／Amazon RDS 讀取副本
 
 **正確答案**
 Elastic Load Balancing (ELB)／負載平衡；Read Replicas in Amazon RDS／Amazon RDS 讀取副本
@@ -578,10 +578,10 @@ Which of the following statements is INCORRECT about AWS Auto Scaling?
 以下哪項關於 AWS Auto Scaling 的陳述是不正確的？
 
 **[選項]**
-A. You can scale out and add more EC2 instances to match an increase in demand as well as scale in and remove EC2 instances to match a reduced demand／可以依需求增加或移除 EC2 執行個體
-B. You can automatically remove unhealthy instances／可以自動移除不健康的執行個體
-C. You can automatically register new instances to a load balancer／可以自動將新執行個體註冊到負載平衡器
-D. You can automatically deploy AWS Shield when a DDoS attack is detected／偵測到 DDoS 攻擊時可以自動部署 AWS Shield
+- A. You can scale out and add more EC2 instances to match an increase in demand as well as scale in and remove EC2 instances to match a reduced demand／可以依需求增加或移除 EC2 執行個體
+- B. You can automatically remove unhealthy instances／可以自動移除不健康的執行個體
+- C. You can automatically register new instances to a load balancer／可以自動將新執行個體註冊到負載平衡器
+- D. You can automatically deploy AWS Shield when a DDoS attack is detected／偵測到 DDoS 攻擊時可以自動部署 AWS Shield
 
 **正確答案**
 You can automatically deploy AWS Shield when a DDoS attack is detected／偵測到 DDoS 攻擊時可以自動部署 AWS Shield
@@ -607,10 +607,10 @@ Multi-AZ deployment is an example of which of the following?
 多 AZ 部署是以下哪項的範例？
 
 **[選項]**
-A. Scale out／向外擴展
-B. Performance Efficiency／效能效率
-C. Scale up／向上擴展
-D. High Availability／高可用性
+- A. Scale out／向外擴展
+- B. Performance Efficiency／效能效率
+- C. Scale up／向上擴展
+- D. High Availability／高可用性
 
 **正確答案**
 High Availability／高可用性
@@ -636,10 +636,10 @@ Which of the following use-cases is NOT supported by Amazon Rekognition?
 以下哪個使用案例不受 Amazon Rekognition 支援？
 
 **[選項]**
-A. Detect text in a photo／偵測照片中的文字
-B. Identify person in a photo／識別照片中的人物
-C. Label objects in a photo／為照片中的物件加上標籤
-D. Quickly resize photos to create thumbnails／快速調整照片大小以建立縮圖
+- A. Detect text in a photo／偵測照片中的文字
+- B. Identify person in a photo／識別照片中的人物
+- C. Label objects in a photo／為照片中的物件加上標籤
+- D. Quickly resize photos to create thumbnails／快速調整照片大小以建立縮圖
 
 **正確答案**
 Quickly resize photos to create thumbnails／快速調整照片大小以建立縮圖
@@ -665,11 +665,11 @@ An organization is planning to move its infrastructure from the on-premises data
 一個組織計劃將基礎設施從本地資料中心遷移至 AWS 雲端。您會推薦哪些選項，以幫助組織識別在 AWS 雲端上建立解決方案的正確 AWS 服務？（選兩項）
 
 **[選項]**
-A. Amazon CloudWatch／監控服務
-B. AWS Organizations／多帳戶管理
-C. AWS CloudTrail／活動稽核
-D. AWS Service Catalog／服務目錄
-E. AWS Partner Network (APN)／AWS 合作夥伴網路
+- A. Amazon CloudWatch／監控服務
+- B. AWS Organizations／多帳戶管理
+- C. AWS CloudTrail／活動稽核
+- D. AWS Service Catalog／服務目錄
+- E. AWS Partner Network (APN)／AWS 合作夥伴網路
 
 **正確答案**
 AWS Service Catalog／服務目錄；AWS Partner Network (APN)／AWS 合作夥伴網路
@@ -696,11 +696,11 @@ Which of the following statements are true about AWS Lambda? (Select two)
 以下哪些陳述關於 AWS Lambda 是正確的？（選兩項）
 
 **[選項]**
-A. AWS Lambda provides access to the underlying operating system to control its behavior through code／Lambda 提供底層作業系統存取
-B. AWS Lambda allows you to install databases on the underlying serverless Operating System／Lambda 允許在底層無伺服器 OS 安裝資料庫
-C. AWS Lambda allows you to orchestrate and manage Docker containers to facilitate complex containerized applications on AWS／Lambda 可編排和管理 Docker 容器
-D. AWS Lambda lets you run code without provisioning or managing servers／Lambda 讓您無需佈建或管理伺服器即可執行程式碼
-E. You pay for the compute time you consume for AWS Lambda／您為 Lambda 消耗的運算時間付費
+- A. AWS Lambda provides access to the underlying operating system to control its behavior through code／Lambda 提供底層作業系統存取
+- B. AWS Lambda allows you to install databases on the underlying serverless Operating System／Lambda 允許在底層無伺服器 OS 安裝資料庫
+- C. AWS Lambda allows you to orchestrate and manage Docker containers to facilitate complex containerized applications on AWS／Lambda 可編排和管理 Docker 容器
+- D. AWS Lambda lets you run code without provisioning or managing servers／Lambda 讓您無需佈建或管理伺服器即可執行程式碼
+- E. You pay for the compute time you consume for AWS Lambda／您為 Lambda 消耗的運算時間付費
 
 **正確答案**
 AWS Lambda lets you run code without provisioning or managing servers／無需佈建或管理伺服器即可執行程式碼；You pay for the compute time you consume for AWS Lambda／為消耗的運算時間付費
@@ -727,10 +727,10 @@ Which AWS service can be used to provision resources to run big data workloads o
 哪個 AWS 服務可用於佈建資源以在 Hadoop 叢集上執行大數據工作負載？
 
 **[選項]**
-A. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
-B. AWS Batch／批次運算
-C. AWS Step Functions／工作流程編排
-D. Amazon EMR／大數據處理平台
+- A. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
+- B. AWS Batch／批次運算
+- C. AWS Step Functions／工作流程編排
+- D. Amazon EMR／大數據處理平台
 
 **正確答案**
 Amazon EMR／大數據處理平台
@@ -756,10 +756,10 @@ Which AWS service enables users to find, buy, and immediately start using softwa
 哪個 AWS 服務使使用者能夠在其 AWS 環境中尋找、購買並立即開始使用軟體解決方案？
 
 **[選項]**
-A. AWS CloudFormation／基礎設施即程式碼
-B. AWS Systems Manager／系統管理
-C. AWS Config／資源組態追蹤
-D. AWS Marketplace／軟體市集
+- A. AWS CloudFormation／基礎設施即程式碼
+- B. AWS Systems Manager／系統管理
+- C. AWS Config／資源組態追蹤
+- D. AWS Marketplace／軟體市集
 
 **正確答案**
 AWS Marketplace／軟體市集
@@ -785,10 +785,10 @@ Which AWS technology/service helps you to scale your resources to match supply w
 哪個 AWS 技術/服務幫助您擴展資源以使供給與需求相匹配，同時保持雲端解決方案的成本效益？
 
 **[選項]**
-A. AWS Systems Manager／系統管理
-B. AWS CloudFormation／基礎設施即程式碼
-C. AWS Cost Explorer／成本分析
-D. AWS Auto Scaling／自動擴展
+- A. AWS Systems Manager／系統管理
+- B. AWS CloudFormation／基礎設施即程式碼
+- C. AWS Cost Explorer／成本分析
+- D. AWS Auto Scaling／自動擴展
 
 **正確答案**
 AWS Auto Scaling／自動擴展
@@ -814,10 +814,10 @@ Which tool will help you review your workloads against current AWS best practice
 哪個工具可以幫助您根據目前 AWS 最佳實務審查工作負載，包括成本優化、安全性和效能改善，並獲得更好的架構建議？
 
 **[選項]**
-A. Amazon Inspector／弱點評估
-B. AWS Cost Explorer／成本分析
-C. Amazon CloudWatch／監控服務
-D. AWS Trusted Advisor／最佳實務建議
+- A. Amazon Inspector／弱點評估
+- B. AWS Cost Explorer／成本分析
+- C. Amazon CloudWatch／監控服務
+- D. AWS Trusted Advisor／最佳實務建議
 
 **正確答案**
 AWS Trusted Advisor／最佳實務建議
@@ -843,10 +843,10 @@ What is the primary benefit of deploying an Amazon RDS Multi-AZ database with on
 部署具有一個待機的 Amazon RDS Multi-AZ 資料庫的主要優點是什麼？
 
 **[選項]**
-A. Amazon RDS Multi-AZ reduces database usage costs／降低資料庫使用成本
-B. Amazon RDS Multi-AZ improves database performance for read-heavy workloads／改善讀取密集型工作負載效能
-C. Amazon RDS Multi-AZ protects the database from a regional failure／保護資料庫免受區域故障影響
-D. Amazon RDS Multi-AZ enhances database availability／提升資料庫可用性
+- A. Amazon RDS Multi-AZ reduces database usage costs／降低資料庫使用成本
+- B. Amazon RDS Multi-AZ improves database performance for read-heavy workloads／改善讀取密集型工作負載效能
+- C. Amazon RDS Multi-AZ protects the database from a regional failure／保護資料庫免受區域故障影響
+- D. Amazon RDS Multi-AZ enhances database availability／提升資料庫可用性
 
 **正確答案**
 Amazon RDS Multi-AZ enhances database availability／提升資料庫可用性
@@ -872,11 +872,11 @@ The engineering team at an IT company wants to monitor the CPU utilization for i
 一家 IT 公司的工程團隊希望監控其 Amazon EC2 執行個體群的 CPU 使用率，並在使用率超過 80% 時向管理員發送電子郵件。您會推薦哪些 AWS 服務來建立此解決方案？（選兩項）
 
 **[選項]**
-A. Amazon Simple Queue Service (SQS)／訊息佇列
-B. AWS Lambda／無伺服器函數
-C. AWS CloudTrail／活動稽核
-D. Amazon CloudWatch／監控服務
-E. Amazon Simple Notification Service (SNS)／通知服務
+- A. Amazon Simple Queue Service (SQS)／訊息佇列
+- B. AWS Lambda／無伺服器函數
+- C. AWS CloudTrail／活動稽核
+- D. Amazon CloudWatch／監控服務
+- E. Amazon Simple Notification Service (SNS)／通知服務
 
 **正確答案**
 Amazon CloudWatch／監控服務；Amazon Simple Notification Service (SNS)／通知服務
@@ -903,10 +903,10 @@ A gaming company is looking at a technology/service that can deliver a consisten
 一家遊戲公司正在尋找可提供一致低延遲遊戲體驗的技術/服務，以確保各地終端使用者獲得良好體驗。哪個 AWS 技術/服務將提供必要的低延遲存取？
 
 **[選項]**
-A. AWS Wavelength／5G 邊緣運算
-B. AWS Edge Locations／AWS 邊緣位置
-C. AWS Direct Connect／專用網路連線
-D. AWS Local Zones／本地區域
+- A. AWS Wavelength／5G 邊緣運算
+- B. AWS Edge Locations／AWS 邊緣位置
+- C. AWS Direct Connect／專用網路連線
+- D. AWS Local Zones／本地區域
 
 **正確答案**
 AWS Local Zones／本地區域
@@ -932,11 +932,11 @@ Which of the following options are the pillars mentioned in the AWS Well-Archite
 以下哪些選項是 AWS Well-Architected Framework 中提到的支柱？（選兩項）
 
 **[選項]**
-A. Scalability／可擴展性
-B. Elasticity／彈性
-C. Availability／可用性
-D. Reliability／可靠性
-E. Cost Optimization／成本優化
+- A. Scalability／可擴展性
+- B. Elasticity／彈性
+- C. Availability／可用性
+- D. Reliability／可靠性
+- E. Cost Optimization／成本優化
 
 **正確答案**
 Reliability／可靠性；Cost Optimization／成本優化
@@ -963,10 +963,10 @@ Which of the following AWS services is essential for implementing security of re
 以下哪個 AWS 服務對於實施 AWS 雲端中資源的安全性至關重要？
 
 **[選項]**
-A. Amazon CloudWatch／監控服務
-B. AWS Shield／DDoS 防護
-C. AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
-D. AWS Identity and Access Management (IAM)／身分與存取管理
+- A. Amazon CloudWatch／監控服務
+- B. AWS Shield／DDoS 防護
+- C. AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
+- D. AWS Identity and Access Management (IAM)／身分與存取管理
 
 **正確答案**
 AWS Identity and Access Management (IAM)／身分與存取管理
@@ -992,10 +992,10 @@ A company wants a fully managed, flexible, and scalable file storage system, wit
 一家公司希望為 Windows 型應用程式提供全受管、靈活且可擴展的檔案儲存系統，且具有低延遲存取。哪個 AWS 服務是正確選擇？
 
 **[選項]**
-A. Amazon Elastic File System (Amazon EFS)／Linux NFS 檔案系統
-B. Amazon Elastic Block Storage (Amazon EBS)／區塊儲存
-C. Amazon FSx for Lustre／高效能 Lustre 檔案系統
-D. Amazon FSx for Windows File Server／Windows 檔案伺服器
+- A. Amazon Elastic File System (Amazon EFS)／Linux NFS 檔案系統
+- B. Amazon Elastic Block Storage (Amazon EBS)／區塊儲存
+- C. Amazon FSx for Lustre／高效能 Lustre 檔案系統
+- D. Amazon FSx for Windows File Server／Windows 檔案伺服器
 
 **正確答案**
 Amazon FSx for Windows File Server／Windows 檔案伺服器
@@ -1021,10 +1021,10 @@ Which cloud transformation journey phase of the AWS Cloud Adoption Framework (AW
 AWS 雲端採用框架（AWS CAF）的哪個雲端轉型旅程階段專注於展示雲端如何幫助加速業務成果？
 
 **[選項]**
-A. Scale／擴展
-B. Launch／啟動
-C. Align／對齊
-D. Envision／願景
+- A. Scale／擴展
+- B. Launch／啟動
+- C. Align／對齊
+- D. Envision／願景
 
 **正確答案**
 Envision／願景
@@ -1050,10 +1050,10 @@ Which characteristic of Cloud Computing imparts the ability to acquire resources
 雲端運算的哪項特性賦予了在需要時獲取資源並在不再需要時釋放資源的能力？
 
 **[選項]**
-A. Resiliency／韌性
-B. Reliability／可靠性
-C. Durability／持久性
-D. Elasticity／彈性
+- A. Resiliency／韌性
+- B. Reliability／可靠性
+- C. Durability／持久性
+- D. Elasticity／彈性
 
 **正確答案**
 Elasticity／彈性
@@ -1079,10 +1079,10 @@ Which of the following foundational capabilities can be found under the Operatio
 以下哪些基礎功能可以在 AWS 雲端採用框架的營運觀點下找到？
 
 **[選項]**
-A. Platform engineering／平台工程
-B. Application portfolio management／應用程式組合管理
-C. Vulnerability management／漏洞管理
-D. Performance and capacity management／效能和容量管理
+- A. Platform engineering／平台工程
+- B. Application portfolio management／應用程式組合管理
+- C. Vulnerability management／漏洞管理
+- D. Performance and capacity management／效能和容量管理
 
 **正確答案**
 Performance and capacity management／效能和容量管理
@@ -1108,10 +1108,10 @@ An online gaming company wants to block users from certain geographies from acce
 一家線上遊戲公司希望封鎖特定地區的使用者存取其內容。哪個 AWS 服務可用於完成此任務？
 
 **[選項]**
-A. Security group／安全群組
-B. Amazon CloudWatch／監控服務
-C. AWS Shield／DDoS 防護
-D. AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
+- A. Security group／安全群組
+- B. Amazon CloudWatch／監控服務
+- C. AWS Shield／DDoS 防護
+- D. AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
 
 **正確答案**
 AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
@@ -1137,10 +1137,10 @@ Which of the following statement is correct regarding the AWS pricing policy for
 以下哪項陳述關於 AWS 對進出 AWS 區域的資料傳輸費用定價政策是正確的？
 
 **[選項]**
-A. Neither inbound nor outbound data transfer are charged／進出站資料傳輸均不收費
-B. Only inbound data transfer is charged／只有入站資料傳輸收費
-C. Both inbound data transfer and outbound data transfer are charged／入站和出站資料傳輸均收費
-D. Only outbound data transfer is charged／只有出站資料傳輸收費
+- A. Neither inbound nor outbound data transfer are charged／進出站資料傳輸均不收費
+- B. Only inbound data transfer is charged／只有入站資料傳輸收費
+- C. Both inbound data transfer and outbound data transfer are charged／入站和出站資料傳輸均收費
+- D. Only outbound data transfer is charged／只有出站資料傳輸收費
 
 **正確答案**
 Only outbound data transfer is charged／只有出站資料傳輸收費
@@ -1166,11 +1166,11 @@ Which of the following statements are correct about the AWS root user account? (
 以下哪些陳述關於 AWS 根使用者帳戶是正確的？（選兩項）
 
 **[選項]**
-A. Root user credentials should only be shared with managers requiring administrative responsibilities to complete their jobs／根使用者憑證可分享給需要管理職責的管理員
-B. Root user account gets unrestricted permissions when the account is created, but these can be restricted using IAM policies／Root 權限可用 IAM 政策限制
-C. Root user account password cannot be changed once it is set／Root 密碼一旦設定就無法更改
-D. It is highly recommended to enable Multi-Factor Authentication (MFA) for root user account／強烈建議為 root 使用者啟用 MFA
-E. Root user access credentials are the email address and password used to create the AWS account／Root 憑證是建立 AWS 帳戶所用的電子郵件地址和密碼
+- A. Root user credentials should only be shared with managers requiring administrative responsibilities to complete their jobs／根使用者憑證可分享給需要管理職責的管理員
+- B. Root user account gets unrestricted permissions when the account is created, but these can be restricted using IAM policies／Root 權限可用 IAM 政策限制
+- C. Root user account password cannot be changed once it is set／Root 密碼一旦設定就無法更改
+- D. It is highly recommended to enable Multi-Factor Authentication (MFA) for root user account／強烈建議為 root 使用者啟用 MFA
+- E. Root user access credentials are the email address and password used to create the AWS account／Root 憑證是建立 AWS 帳戶所用的電子郵件地址和密碼
 
 **正確答案**
 It is highly recommended to enable MFA for root user account／強烈建議啟用 MFA；Root user access credentials are the email address and password used to create the AWS account／Root 憑證是建立帳戶的電子郵件和密碼
@@ -1197,10 +1197,10 @@ An organization has a complex IT architecture involving a lot of system dependen
 一個組織擁有涉及許多系統相依關係的複雜 IT 架構，希望追蹤每個資源的變更歷史。哪個 AWS 服務將幫助組織追蹤所有資源的設定變更歷史？
 
 **[選項]**
-A. AWS Service Catalog／服務目錄
-B. AWS CloudTrail／活動稽核
-C. AWS CloudFormation／基礎設施即程式碼
-D. AWS Config／資源組態追蹤
+- A. AWS Service Catalog／服務目錄
+- B. AWS CloudTrail／活動稽核
+- C. AWS CloudFormation／基礎設施即程式碼
+- D. AWS Config／資源組態追蹤
 
 **正確答案**
 AWS Config／資源組態追蹤
@@ -1226,12 +1226,12 @@ Which of the following options can be used to access and manage all AWS services
 以下哪些選項可用於存取和管理所有 AWS 服務？（選三項）
 
 **[選項]**
-A. Amazon API Gateway／API 閘道
-B. AWS Secrets Manager／機密管理
-C. AWS Systems Manager／系統管理
-D. AWS Software Development Kit (SDK)／軟體開發套件
-E. AWS Command Line Interface (AWS CLI)／命令列介面
-F. AWS Management Console／管理主控台
+- A. Amazon API Gateway／API 閘道
+- B. AWS Secrets Manager／機密管理
+- C. AWS Systems Manager／系統管理
+- D. AWS Software Development Kit (SDK)／軟體開發套件
+- E. AWS Command Line Interface (AWS CLI)／命令列介面
+- F. AWS Management Console／管理主控台
 
 **正確答案**
 AWS Software Development Kit (SDK)／軟體開發套件；AWS Command Line Interface (AWS CLI)／命令列介面；AWS Management Console／管理主控台
@@ -1259,10 +1259,10 @@ A startup is looking for 24x7 phone based technical support for its AWS account.
 一家新創公司正在尋找 24 小時全天候電話技術支援。以下哪個是此使用案例最具成本效益的 AWS 支援方案？
 
 **[選項]**
-A. AWS Enterprise On-Ramp Support／Enterprise On-Ramp 支援
-B. AWS Developer Support／開發者支援
-C. AWS Enterprise Support／企業支援
-D. AWS Business Support／商業支援
+- A. AWS Enterprise On-Ramp Support／Enterprise On-Ramp 支援
+- B. AWS Developer Support／開發者支援
+- C. AWS Enterprise Support／企業支援
+- D. AWS Business Support／商業支援
 
 **正確答案**
 AWS Business Support／商業支援
@@ -1288,10 +1288,10 @@ A photo sharing web application wants to store thumbnails of user-uploaded image
 一個照片共享 Web 應用程式希望在 Amazon S3 上儲存使用者上傳圖片的縮圖。縮圖很少使用，但需要能從 Web 應用程式立即存取。如果縮圖遺失，可以輕鬆重新生成。儲存這些縮圖最具成本效益的方式是什麼？
 
 **[選項]**
-A. Use Amazon S3 Standard to store the thumbnails／使用 S3 Standard 儲存縮圖
-B. Use Amazon S3 Standard-Infrequent Access (S3 Standard-IA) to store the thumbnails／使用 S3 Standard-IA 儲存縮圖
-C. Use Amazon S3 Glacier Flexible Retrieval to store the thumbnails／使用 S3 Glacier Flexible Retrieval 儲存縮圖
-D. Use Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA) to store the thumbnails／使用 S3 One Zone-IA 儲存縮圖
+- A. Use Amazon S3 Standard to store the thumbnails／使用 S3 Standard 儲存縮圖
+- B. Use Amazon S3 Standard-Infrequent Access (S3 Standard-IA) to store the thumbnails／使用 S3 Standard-IA 儲存縮圖
+- C. Use Amazon S3 Glacier Flexible Retrieval to store the thumbnails／使用 S3 Glacier Flexible Retrieval 儲存縮圖
+- D. Use Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA) to store the thumbnails／使用 S3 One Zone-IA 儲存縮圖
 
 **正確答案**
 Use Amazon S3 One Zone-Infrequent Access (S3 One Zone-IA) to store the thumbnails／使用 S3 One Zone-IA 儲存縮圖
@@ -1317,10 +1317,10 @@ An e-commerce company wants to store data from a recommendation engine in a data
 一家電子商務公司希望將推薦引擎的資料儲存在資料庫中。您會推薦哪個 AWS 服務，以在任何規模下提供最少的營運負擔？
 
 **[選項]**
-A. Amazon Relational Database Service (Amazon RDS)／關聯式資料庫
-B. Amazon Simple Storage Service (Amazon S3)／物件儲存
-C. Amazon Neptune／圖形資料庫
-D. Amazon DynamoDB／NoSQL 資料庫
+- A. Amazon Relational Database Service (Amazon RDS)／關聯式資料庫
+- B. Amazon Simple Storage Service (Amazon S3)／物件儲存
+- C. Amazon Neptune／圖形資料庫
+- D. Amazon DynamoDB／NoSQL 資料庫
 
 **正確答案**
 Amazon DynamoDB／NoSQL 資料庫
@@ -1346,10 +1346,10 @@ A developer has written a simple web application in PHP and he wants to just upl
 一位開發人員用 PHP 編寫了一個簡單的 Web 應用程式，希望只需將程式碼上傳至 AWS 雲端，讓 AWS 自動處理部署，但仍希望存取底層作業系統。您會推薦以下哪個 AWS 服務？
 
 **[選項]**
-A. Amazon Elastic Container Service (Amazon ECS)／容器編排
-B. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
-C. AWS CloudFormation／基礎設施即程式碼
-D. AWS Elastic Beanstalk／應用部署平台
+- A. Amazon Elastic Container Service (Amazon ECS)／容器編排
+- B. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
+- C. AWS CloudFormation／基礎設施即程式碼
+- D. AWS Elastic Beanstalk／應用部署平台
 
 **正確答案**
 AWS Elastic Beanstalk／應用部署平台
@@ -1375,10 +1375,10 @@ According to the AWS Shared Responsibility Model, which of the following are res
 根據 AWS 共同責任模型，以下哪些是客戶對 Amazon RDS 的責任？
 
 **[選項]**
-A. Applying patches to the Amazon RDS database／為 Amazon RDS 資料庫套用修補程式
-B. Applying patches to the underlying OS／為底層作業系統套用修補程式
-C. Managing the underlying server hardware on which Amazon RDS runs／管理 RDS 底層伺服器硬體
-D. Database encryption／資料庫加密
+- A. Applying patches to the Amazon RDS database／為 Amazon RDS 資料庫套用修補程式
+- B. Applying patches to the underlying OS／為底層作業系統套用修補程式
+- C. Managing the underlying server hardware on which Amazon RDS runs／管理 RDS 底層伺服器硬體
+- D. Database encryption／資料庫加密
 
 **正確答案**
 Database encryption／資料庫加密
@@ -1404,10 +1404,10 @@ Which of the following AWS services allows a database to have flexible schema an
 以下哪個 AWS 服務允許資料庫具有靈活的結構描述並支援文件資料模型？
 
 **[選項]**
-A. Amazon Relational Database Service (Amazon RDS)／關聯式資料庫
-B. Amazon Aurora／雲端關聯式資料庫
-C. Amazon Redshift／資料倉儲
-D. Amazon DynamoDB／NoSQL 資料庫
+- A. Amazon Relational Database Service (Amazon RDS)／關聯式資料庫
+- B. Amazon Aurora／雲端關聯式資料庫
+- C. Amazon Redshift／資料倉儲
+- D. Amazon DynamoDB／NoSQL 資料庫
 
 **正確答案**
 Amazon DynamoDB／NoSQL 資料庫
@@ -1433,10 +1433,10 @@ A company's flagship application runs on a fleet of Amazon EC2 instances. The sy
 一家公司的旗艦應用程式在 Amazon EC2 執行個體群上執行。系統管理員正在尋找最佳方式，在不開啟新連接埠或使用公用 IP 位址的情況下提供對 Amazon EC2 執行個體的安全 Shell 存取。哪個工具/服務可以實現此需求？
 
 **[選項]**
-A. Amazon Route 53／DNS 服務
-B. Amazon Inspector／弱點評估
-C. Amazon EC2 Instance Connect／EC2 連線工具
-D. AWS Systems Manager Session Manager／Session Manager
+- A. Amazon Route 53／DNS 服務
+- B. Amazon Inspector／弱點評估
+- C. Amazon EC2 Instance Connect／EC2 連線工具
+- D. AWS Systems Manager Session Manager／Session Manager
 
 **正確答案**
 AWS Systems Manager Session Manager／Session Manager
@@ -1462,10 +1462,10 @@ Which of the following is the correct statement regarding the AWS Storage servic
 以下哪項是關於 AWS 儲存服務的正確陳述？
 
 **[選項]**
-A. Amazon S3 is file based storage, Amazon EBS is block based storage and Amazon EFS is object based storage／S3 是檔案，EBS 是區塊，EFS 是物件
-B. Amazon S3 is block based storage, Amazon EBS is object based storage and Amazon EFS is file based storage／S3 是區塊，EBS 是物件，EFS 是檔案
-C. Amazon S3 is object based storage, Amazon EBS is file based storage and Amazon EFS is block based storage／S3 是物件，EBS 是檔案，EFS 是區塊
-D. Amazon S3 is object based storage, Amazon EBS is block based storage and Amazon EFS is file based storage／S3 是物件，EBS 是區塊，EFS 是檔案
+- A. Amazon S3 is file based storage, Amazon EBS is block based storage and Amazon EFS is object based storage／S3 是檔案，EBS 是區塊，EFS 是物件
+- B. Amazon S3 is block based storage, Amazon EBS is object based storage and Amazon EFS is file based storage／S3 是區塊，EBS 是物件，EFS 是檔案
+- C. Amazon S3 is object based storage, Amazon EBS is file based storage and Amazon EFS is block based storage／S3 是物件，EBS 是檔案，EFS 是區塊
+- D. Amazon S3 is object based storage, Amazon EBS is block based storage and Amazon EFS is file based storage／S3 是物件，EBS 是區塊，EFS 是檔案
 
 **正確答案**
 Amazon S3 is object based storage, Amazon EBS is block based storage and Amazon EFS is file based storage／S3 是物件，EBS 是區塊，EFS 是檔案
@@ -1491,10 +1491,10 @@ Which Amazon Route 53 routing policy would you use to improve the performance fo
 您會使用哪個 Amazon Route 53 路由政策，透過將請求路由至提供最快體驗的 AWS 端點來改善客戶的效能？
 
 **[選項]**
-A. Weighted routing／加權路由
-B. Failover routing／容錯移轉路由
-C. Simple routing／簡單路由
-D. Latency-based routing／延遲型路由
+- A. Weighted routing／加權路由
+- B. Failover routing／容錯移轉路由
+- C. Simple routing／簡單路由
+- D. Latency-based routing／延遲型路由
 
 **正確答案**
 Latency-based routing／延遲型路由
@@ -1520,10 +1520,10 @@ Which AWS service publishes up-to-the-minute information on the general status a
 哪個 AWS 服務發布 AWS 雲端所有區域中所有 AWS 服務的一般狀態和可用性的最新資訊？
 
 **[選項]**
-A. AWS Health Dashboard - Your account health／您的帳戶健康狀態
-B. Amazon CloudWatch／監控服務
-C. AWS CloudFormation／基礎設施即程式碼
-D. AWS Health Dashboard - service health／服務健康狀態
+- A. AWS Health Dashboard - Your account health／您的帳戶健康狀態
+- B. Amazon CloudWatch／監控服務
+- C. AWS CloudFormation／基礎設施即程式碼
+- D. AWS Health Dashboard - service health／服務健康狀態
 
 **正確答案**
 AWS Health Dashboard - service health／服務健康狀態
@@ -1549,10 +1549,10 @@ What are the fundamental drivers of cost with AWS Cloud?
 AWS 雲端的基本成本驅動因素是什麼？
 
 **[選項]**
-A. Compute, Databases and Outbound Data Transfer／運算、資料庫和出站資料傳輸
-B. Compute, Storage and Inbound Data Transfer／運算、儲存和入站資料傳輸
-C. Compute, Databases and Inbound Data Transfer／運算、資料庫和入站資料傳輸
-D. Compute, Storage and Outbound Data Transfer／運算、儲存和出站資料傳輸
+- A. Compute, Databases and Outbound Data Transfer／運算、資料庫和出站資料傳輸
+- B. Compute, Storage and Inbound Data Transfer／運算、儲存和入站資料傳輸
+- C. Compute, Databases and Inbound Data Transfer／運算、資料庫和入站資料傳輸
+- D. Compute, Storage and Outbound Data Transfer／運算、儲存和出站資料傳輸
 
 **正確答案**
 Compute, Storage and Outbound Data Transfer／運算、儲存和出站資料傳輸
@@ -1578,10 +1578,10 @@ Which Amazon EC2 pricing model is the most cost-effective and flexible with no r
 哪種 Amazon EC2 定價模型最具成本效益和靈活性，不需要長期資源承諾或預付款，但仍保證執行個體不會被中斷？
 
 **[選項]**
-A. Reserved Instance (RI)／保留執行個體
-B. Dedicated Host／專用主機
-C. Spot Instance／Spot 執行個體
-D. On-demand Instance／隨需執行個體
+- A. Reserved Instance (RI)／保留執行個體
+- B. Dedicated Host／專用主機
+- C. Spot Instance／Spot 執行個體
+- D. On-demand Instance／隨需執行個體
 
 **正確答案**
 On-demand Instance／隨需執行個體
@@ -1607,10 +1607,10 @@ A customer has created a VPC and a subnet within AWS Cloud. Which of the followi
 一位客戶在 AWS 雲端中建立了 VPC 和子網路。以下哪項陳述是正確的？
 
 **[選項]**
-A. Both the VPC and the subnet span only one AZ in the Region／VPC 和子網路都只跨越一個 AZ
-B. A subnet spans all of the AZs in the Region whereas a VPC spans only one AZ in the Region／子網路跨越所有 AZ，VPC 只跨越一個 AZ
-C. Both the VPC and the subnet span all of the AZs in the Region／VPC 和子網路都跨越所有 AZ
-D. A VPC spans all of the AZs in the Region whereas a subnet spans only one AZ in the Region／VPC 跨越區域中所有 AZ，子網路只跨越一個 AZ
+- A. Both the VPC and the subnet span only one AZ in the Region／VPC 和子網路都只跨越一個 AZ
+- B. A subnet spans all of the AZs in the Region whereas a VPC spans only one AZ in the Region／子網路跨越所有 AZ，VPC 只跨越一個 AZ
+- C. Both the VPC and the subnet span all of the AZs in the Region／VPC 和子網路都跨越所有 AZ
+- D. A VPC spans all of the AZs in the Region whereas a subnet spans only one AZ in the Region／VPC 跨越區域中所有 AZ，子網路只跨越一個 AZ
 
 **正確答案**
 A VPC spans all of the AZs in the Region whereas a subnet spans only one AZ in the Region／VPC 跨越區域中所有 AZ，子網路只跨越一個 AZ
@@ -1636,10 +1636,10 @@ Which AWS service should be used when you want to run container applications, bu
 當您想執行容器應用程式，但又想避免擴展、修補、保護和管理伺服器的營運負擔時，應使用哪個 AWS 服務？
 
 **[選項]**
-A. AWS Lambda／無伺服器函數
-B. Amazon Elastic Container Service (Amazon ECS) - EC2 launch type／ECS EC2 啟動類型
-C. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
-D. Amazon Elastic Container Service (Amazon ECS) - Fargate launch type／ECS Fargate 啟動類型
+- A. AWS Lambda／無伺服器函數
+- B. Amazon Elastic Container Service (Amazon ECS) - EC2 launch type／ECS EC2 啟動類型
+- C. Amazon Elastic Compute Cloud (Amazon EC2)／虛擬伺服器
+- D. Amazon Elastic Container Service (Amazon ECS) - Fargate launch type／ECS Fargate 啟動類型
 
 **正確答案**
 Amazon Elastic Container Service (Amazon ECS) - Fargate launch type／ECS Fargate 啟動類型
@@ -1665,10 +1665,10 @@ Which of the following statement is correct for a Security Group and a Network A
 以下哪項陳述關於安全群組和網路存取控制清單（Network ACL）是正確的？
 
 **[選項]**
-A. Security Group acts as a firewall at the subnet level whereas Network ACL acts as a firewall at the instance level／安全群組在子網路層級，NACL 在執行個體層級
-B. Security Group acts as a firewall at the VPC level whereas Network ACL acts as a firewall at the AZ level／安全群組在 VPC 層級，NACL 在 AZ 層級
-C. Security Group acts as a firewall at the AZ level whereas Network ACL acts as a firewall at the VPC level／安全群組在 AZ 層級，NACL 在 VPC 層級
-D. Security Group acts as a firewall at the instance level whereas Network ACL acts as a firewall at the subnet level／安全群組在執行個體層級，NACL 在子網路層級
+- A. Security Group acts as a firewall at the subnet level whereas Network ACL acts as a firewall at the instance level／安全群組在子網路層級，NACL 在執行個體層級
+- B. Security Group acts as a firewall at the VPC level whereas Network ACL acts as a firewall at the AZ level／安全群組在 VPC 層級，NACL 在 AZ 層級
+- C. Security Group acts as a firewall at the AZ level whereas Network ACL acts as a firewall at the VPC level／安全群組在 AZ 層級，NACL 在 VPC 層級
+- D. Security Group acts as a firewall at the instance level whereas Network ACL acts as a firewall at the subnet level／安全群組在執行個體層級，NACL 在子網路層級
 
 **正確答案**
 Security Group acts as a firewall at the instance level whereas Network ACL acts as a firewall at the subnet level／安全群組在執行個體層級，NACL 在子網路層級
@@ -1694,10 +1694,10 @@ Which AWS service would you use to send alerts when the costs for your AWS accou
 哪個 AWS 服務可讓您在 AWS 帳戶的成本超過預算金額時發送警報？
 
 **[選項]**
-A. AWS Pricing Calculator／定價試算
-B. AWS Cost Explorer／成本分析
-C. AWS Organizations／多帳戶管理
-D. AWS Budgets／預算管理
+- A. AWS Pricing Calculator／定價試算
+- B. AWS Cost Explorer／成本分析
+- C. AWS Organizations／多帳戶管理
+- D. AWS Budgets／預算管理
 
 **正確答案**
 AWS Budgets／預算管理
@@ -1723,10 +1723,10 @@ Which policy describes prohibited uses of the web services offered by Amazon Web
 哪個政策描述了 Amazon Web Services 提供的 Web 服務的禁止使用行為？
 
 **[選項]**
-A. AWS Trusted Advisor／最佳實務建議
-B. AWS Applicable Use Policy／AWS 適用使用政策
-C. AWS Fair Use Policy／AWS 公平使用政策
-D. AWS Acceptable Use Policy／AWS 可接受使用政策
+- A. AWS Trusted Advisor／最佳實務建議
+- B. AWS Applicable Use Policy／AWS 適用使用政策
+- C. AWS Fair Use Policy／AWS 公平使用政策
+- D. AWS Acceptable Use Policy／AWS 可接受使用政策
 
 **正確答案**
 AWS Acceptable Use Policy／AWS 可接受使用政策
@@ -1752,10 +1752,10 @@ An organization deploys its IT infrastructure in a combination of its on-premise
 一個組織將其 IT 基礎設施部署在本地資料中心和 AWS 雲端的組合中。您如何分類此部署模型？
 
 **[選項]**
-A. Cloud deployment／雲端部署
-B. Private deployment／私有部署
-C. Mixed deployment／混合部署
-D. Hybrid deployment／混合部署
+- A. Cloud deployment／雲端部署
+- B. Private deployment／私有部署
+- C. Mixed deployment／混合部署
+- D. Hybrid deployment／混合部署
 
 **正確答案**
 Hybrid deployment／混合部署
@@ -1781,10 +1781,10 @@ A data analytics company stores its data on Amazon S3 and wants to do SQL based 
 一家資料分析公司將其資料儲存在 Amazon S3 上，希望以最少的工作量對此資料進行基於 SQL 的分析。您會建議哪個 AWS 服務？
 
 **[選項]**
-A. Amazon Aurora／關聯式資料庫
-B. Amazon DynamoDB／NoSQL 資料庫
-C. Amazon Redshift／資料倉儲
-D. Amazon Athena／互動式查詢服務
+- A. Amazon Aurora／關聯式資料庫
+- B. Amazon DynamoDB／NoSQL 資料庫
+- C. Amazon Redshift／資料倉儲
+- D. Amazon Athena／互動式查詢服務
 
 **正確答案**
 Amazon Athena／互動式查詢服務
@@ -1810,10 +1810,10 @@ What are the different gateway types supported by AWS Storage Gateway service?
 AWS Storage Gateway 服務支援哪些不同的閘道類型？
 
 **[選項]**
-A. Tape Gateway, Object Gateway and Volume Gateway／磁帶閘道、物件閘道和磁碟區閘道
-B. Tape Gateway, File Gateway and Block Gateway／磁帶閘道、檔案閘道和區塊閘道
-C. Object Gateway, File Gateway and Block Gateway／物件閘道、檔案閘道和區塊閘道
-D. Tape Gateway, File Gateway and Volume Gateway／磁帶閘道、檔案閘道和磁碟區閘道
+- A. Tape Gateway, Object Gateway and Volume Gateway／磁帶閘道、物件閘道和磁碟區閘道
+- B. Tape Gateway, File Gateway and Block Gateway／磁帶閘道、檔案閘道和區塊閘道
+- C. Object Gateway, File Gateway and Block Gateway／物件閘道、檔案閘道和區塊閘道
+- D. Tape Gateway, File Gateway and Volume Gateway／磁帶閘道、檔案閘道和磁碟區閘道
 
 **正確答案**
 Tape Gateway, File Gateway and Volume Gateway／磁帶閘道、檔案閘道和磁碟區閘道
@@ -1839,10 +1839,10 @@ A retail company has multiple AWS accounts for each of its departments. Which of
 一家零售公司為其每個部門擁有多個 AWS 帳戶。以下哪個 AWS 服務可用於為這些 AWS 帳戶設定合併計費和單一付款方式？
 
 **[選項]**
-A. AWS Budgets／預算管理
-B. AWS Secrets Manager／機密管理
-C. AWS Cost Explorer／成本分析
-D. AWS Organizations／多帳戶管理
+- A. AWS Budgets／預算管理
+- B. AWS Secrets Manager／機密管理
+- C. AWS Cost Explorer／成本分析
+- D. AWS Organizations／多帳戶管理
 
 **正確答案**
 AWS Organizations／多帳戶管理
@@ -1868,10 +1868,10 @@ A company is using a message broker service on its on-premises application and w
 一家公司在其本地應用程式上使用訊息代理服務，並希望將此訊息功能移至 AWS 雲端。以下哪個 AWS 服務是輕鬆遷移現有功能的正確選擇？
 
 **[選項]**
-A. Amazon Simple Queue Service (Amazon SQS)／訊息佇列
-B. Amazon Kinesis Data Streams／串流資料
-C. Amazon Simple Notification Service (Amazon SNS)／發布訂閱通知
-D. Amazon MQ／受管訊息代理
+- A. Amazon Simple Queue Service (Amazon SQS)／訊息佇列
+- B. Amazon Kinesis Data Streams／串流資料
+- C. Amazon Simple Notification Service (Amazon SNS)／發布訂閱通知
+- D. Amazon MQ／受管訊息代理
 
 **正確答案**
 Amazon MQ／受管訊息代理
@@ -1897,12 +1897,12 @@ Which of the following AWS services can be used to prevent Distributed Denial-of
 以下哪些 AWS 服務可用於防止分散式阻斷服務（DDoS）攻擊？（選三項）
 
 **[選項]**
-A. AWS CloudHSM／雲端硬體安全模組
-B. Amazon Inspector／弱點評估
-C. AWS Trusted Advisor／最佳實務建議
-D. Amazon CloudFront with Amazon Route 53／CloudFront 搭配 Route 53
-E. AWS Shield／DDoS 防護
-F. AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
+- A. AWS CloudHSM／雲端硬體安全模組
+- B. Amazon Inspector／弱點評估
+- C. AWS Trusted Advisor／最佳實務建議
+- D. Amazon CloudFront with Amazon Route 53／CloudFront 搭配 Route 53
+- E. AWS Shield／DDoS 防護
+- F. AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
 
 **正確答案**
 Amazon CloudFront with Amazon Route 53／CloudFront 搭配 Route 53；AWS Shield／DDoS 防護；AWS Web Application Firewall (AWS WAF)／Web 應用程式防火牆
